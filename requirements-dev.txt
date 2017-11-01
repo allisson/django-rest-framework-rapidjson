@@ -1,0 +1,7 @@
+-r requirements.txt
+django
+pytest
+pytest-cov
+pytest-django
+twine
+wheel

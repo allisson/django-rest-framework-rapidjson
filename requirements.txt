@@ -1,0 +1,2 @@
+python-rapidjson>=0.2.5
+djangorestframework>=3.5.4
