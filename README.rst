@@ -6,6 +6,10 @@ Provides rapidjson support with parser and renderer.
 .. image:: https://travis-ci.org/allisson/django-rest-framework-rapidjson.svg?branch=master
     :target: https://travis-ci.org/allisson/django-rest-framework-rapidjson
 
+.. image:: https://img.shields.io/pypi/v/djangorestframework-rapidjson.svg
+        :target: https://pypi.python.org/pypi/djangorestframework-rapidjson
+        :alt: Latest Version
+
 .. image:: https://img.shields.io/pypi/pyversions/djangorestframework-rapidjson.svg
         :target: https://pypi.python.org/pypi/djangorestframework-rapidjson
         :alt: Supported Python versions
