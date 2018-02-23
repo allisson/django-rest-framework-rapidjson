@@ -1,5 +1,5 @@
 import six
-from rapidjson import DM_ISO8601, UM_CANONICAL, dumps
+from rapidjson import DM_ISO8601, NM_DECIMAL, UM_CANONICAL, dumps
 from rest_framework.renderers import JSONRenderer
 
 
@@ -13,12 +13,12 @@ class RapidJSONRenderer(JSONRenderer):
 
         renderer_context = renderer_context or {}
         indent = self.get_indent(accepted_media_type, renderer_context)
-
         ret = dumps(
             data,
             indent=indent,
             datetime_mode=DM_ISO8601,
-            uuid_mode=UM_CANONICAL
+            uuid_mode=UM_CANONICAL,
+            number_mode=NM_DECIMAL,
         )
 
         # On python 2.x json.dumps() returns bytestrings if ensure_ascii=True,

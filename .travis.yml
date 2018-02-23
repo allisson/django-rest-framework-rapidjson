@@ -4,7 +4,7 @@ python:
   - "3.5"
   - "3.6"
 env:
-  - DRF_VERSION=3.7.1
+  - DRF_VERSION=3.7.7
   - DRF_VERSION=3.6.4
   - DRF_VERSION=3.5.4
 # command to install dependencies
