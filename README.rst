@@ -1,7 +1,8 @@
 djangorestframework-rapidjson
 =============================
 
-Provides rapidjson support with parser and renderer.
+Provides `rapidjson <https://github.com/python-rapidjson/python-rapidjson>`_
+support with parser and renderer.
 
 .. image:: https://travis-ci.org/allisson/django-rest-framework-rapidjson.svg?branch=master
     :target: https://travis-ci.org/allisson/django-rest-framework-rapidjson
