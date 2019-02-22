@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+0.1.4
+~~~~~
+
+* Adds support to latest python and django versions.
+
 0.1.3
 ~~~~~
 
