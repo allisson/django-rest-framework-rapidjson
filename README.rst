@@ -14,6 +14,9 @@ Provides rapidjson support with parser and renderer.
         :target: https://pypi.python.org/pypi/djangorestframework-rapidjson
         :alt: Supported Python versions
 
+.. image:: https://img.shields.io/pypi/djversions/djangorestframework-rapidjson.svg
+        :target: https://pypi.python.org/pypi/djangorestframework-rapidjson
+        :alt: Supported Django versions
 
 How to install
 --------------
