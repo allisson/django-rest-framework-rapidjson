@@ -1,5 +1,5 @@
 -r requirements.txt
-django<2.0
+django>=1.11.20
 pytest
 pytest-cov
 pytest-django
