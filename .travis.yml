@@ -6,6 +6,8 @@ python:
   - "3.6"
   - "3.7"
 env:
+  - DRF_VERSION=3.9.1
+  - DRF_VERSION=3.8.2
   - DRF_VERSION=3.7.7
   - DRF_VERSION=3.6.4
   - DRF_VERSION=3.5.4
