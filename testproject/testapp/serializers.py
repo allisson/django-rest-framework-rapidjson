@@ -7,13 +7,13 @@ class MyTestModelSerializer(ModelSerializer):
     class Meta:
         model = MyTestModel
         fields = (
-            'charfield',
-            'datefield',
-            'datetimefield',
-            'decimalfield',
-            'floatfield',
-            'id',
-            'integerfield',
-            'timefield',
-            'uuidfield',
+            "charfield",
+            "datefield",
+            "datetimefield",
+            "decimalfield",
+            "floatfield",
+            "id",
+            "integerfield",
+            "timefield",
+            "uuidfield",
         )

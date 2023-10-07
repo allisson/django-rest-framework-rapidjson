@@ -15,6 +15,9 @@ clean-dist:
 
 clean: clean-pyc clean-dist
 
+lint:
+	pre-commit run --all-files
+
 test:
 	cd testproject && pytest
 
