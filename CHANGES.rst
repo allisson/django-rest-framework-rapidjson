@@ -1,6 +1,12 @@
 Changelog
 ---------
 
+0.2.0
+~~~~~
+
+* Drop support for older versions of python and django.
+* Replace travisci with github actions.
+
 0.1.4
 ~~~~~
 

@@ -1,7 +1,9 @@
 -r requirements.txt
-django>=1.11.20
+django>=3.2.22
 pytest
 pytest-cov
 pytest-django
 twine
 wheel
+pre-commit
+pytz
